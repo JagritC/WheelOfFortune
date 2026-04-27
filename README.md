@@ -1,4 +1,4 @@
-# Wheel of Fortune
+# Wheel of Fortune 🎡
 
 A browser-based, two-player **Wheel of Fortune** game built with React 19, TypeScript, and Vite. Spin the wheel, guess letters, buy vowels, and race to solve the puzzle across three rounds.
 
