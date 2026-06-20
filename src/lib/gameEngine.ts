@@ -237,7 +237,7 @@ export function doSolveAttempt(state: EngineState, attempt: string): EngineState
 
 // ─── Round & game advancement ─────────────────────────────────────────────────
 
-function advanceRound(state: EngineState, winnerIndex: 0 | 1): EngineState {
+export function advanceRound(state: EngineState, winnerIndex: 0 | 1): EngineState {
   const winner = state.players[winnerIndex];
   const players = [...state.players] as [Player, Player];
   const loserIndex = otherIndex(winnerIndex);
